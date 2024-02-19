@@ -1,0 +1,14 @@
+# Arquivos de compilação TypeScript
+/dist
+
+# Arquivos de dependências
+/node_modules
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.tmp
+
+# Arquivos de ambiente
+.env
