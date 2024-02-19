@@ -7,10 +7,6 @@ dotenv.config();
 
 const apiKey = process.env.API_KEY;
 
-
-const weatherApiAddress = (city: string) => `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`
-
-
 const app = express();
 const port = 3000;
 
